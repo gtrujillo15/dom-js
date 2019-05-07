@@ -10,6 +10,9 @@ console.log(isNaN(name));
 //     user.name = name;
 // }
 
+//arrow function
+var newIsExcluded = excludedName.find((excluded) => excluded === name);
+
 if (name && isNaN(name)) {
     user.name = name;
     var hp = prompt('Enter your hp: ');
